@@ -1,0 +1,119 @@
+html, body {
+  margin: 0;
+}
+
+#navbar {
+  background-color:  #741830;
+  /* vertical | horizontal */
+  margin: 0 0;
+  height: 67px;
+  width: 100%;
+  position: fixed;
+  /* specified position relative to the screen's viewport and don't move it when scrolled */
+}
+
+#header-list {
+  font-family: Montserrat;
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+#header-list li {
+  display: inline;
+  /* top / right */
+  padding: 0 30px;
+}
+
+#header-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+#header-list li a:hover {
+  color: #B87683;
+}
+
+
+#container {
+  padding-top: 100px;
+}
+
+.left {
+  /* top | right | bottom | left */
+  margin: 0 6% 0 14%;
+  width: 30%;
+  float: left;
+}
+
+.right {
+  /* top | right | bottom | left */
+  margin: 0 14% 0 6%;
+  width: 30%;
+  float: right;
+}
+
+.separator {
+  /* limpa os floats + tamanho */
+  clear: both;
+  height: 100px;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 33px;
+  color: #B87683;
+}
+
+.text {
+  font-family: Lora;
+  text-align: left;
+  color: #666666;
+}
+
+/* .text p {
+  margin-top: 40px;
+} */
+
+#img-container {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 300px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+#footer {
+  background-color: black;
+  font-family: Montserrat;
+  /* cor aqui por causa do 2016 */
+  color: white;
+  text-align: center;
+  height: 40px;
+  bottom: 0;
+  padding-top: 5px;
+  width: 100%;
+  clear: both;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+

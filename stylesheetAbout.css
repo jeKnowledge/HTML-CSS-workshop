@@ -1,0 +1,31 @@
+html, body {
+    background-color: #741830;
+}
+
+.container {
+    /* top | right | bottom | left */
+    margin: 0 auto 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.title {
+    font-family: Montserrat;
+    color: white;
+    font-size: 5em;
+    text-align: left;
+}
+
+.title p a {
+    color: white;
+    text-decoration: line-through;
+}
+
+.title p a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 30%;
+}
